@@ -1,0 +1,36 @@
+.task {
+  background-color: #262626;
+  width: 100%;
+
+  padding: 16px 19px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 12px;
+
+  border-radius: 8px;
+}
+
+.concluida {
+  text-decoration: line-through;
+  color: #636363;
+}
+
+.task button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.task img {
+  width: 24px;
+  height: 24px;
+}
+
+.task button:hover {
+  background-color: red;
+}

@@ -1,0 +1,104 @@
+.container {
+  max-width: 736px;
+  margin: 0 auto;
+  margin-top: 72px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container img {
+  width: 126px;
+  height: 48px;
+  align-self: center;
+}
+
+.addTask {
+  margin-top: 53px;
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+.addTask input {
+  flex: 1;
+  height: 54px;
+  padding: 16px;
+
+  color: #808080;
+  background-color: #262626;
+  border-radius: 8px;
+  border: 1px solid #0d0d0d;
+}
+
+.addTask button {
+  background-color: #1e6f9f;
+  color: #fff;
+  height: 54px;
+  padding: 16px;
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.addTask button:hover {
+  background-color: #2587c0;
+  transition: 0.3s;
+}
+
+.containerToDo {
+  margin-top: 64px;
+}
+
+.containerToDoText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#criadas {
+  color: #4ea8de;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#criadas span {
+  background-color: #262626;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 99%;
+}
+
+#concluidas {
+  color: #8284fa;
+  font-weight: bold;
+}
+
+#concluidas span {
+  background-color: #262626;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 99%;
+}
+
+.semTarefa {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 64px 24px;
+  color: #808080;
+}
+
+.semTarefa img {
+  margin-bottom: 16px;
+}
+
+.containerTasks {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
